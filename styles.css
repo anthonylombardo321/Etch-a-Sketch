@@ -1,0 +1,94 @@
+/* Header */
+body{
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title{
+    text-align: center;
+    font-size: 48px;
+    margin: 10px 0px;
+    color: yellow;
+    font-family: "Sacramento", cursive;
+
+}
+/* ======================================== */
+/* Main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Grid */
+#grid{
+    display: grid;
+    width: 725px;
+    height: 500px;
+    border: 4px solid gray;
+    background-color: white;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.grid-item{
+    background-color: white;
+}
+
+/* Settings */
+.settings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 725px;
+    gap: 12px;
+    border: 4px solid gray;
+}
+
+/* Color Input */
+#color-picker{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: none;
+}
+
+input[type=color]::-webkit-color-swatch{
+    border-radius: 50%;
+}
+
+/* Setting Buttons */
+button{
+    background-color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.active{
+    background-color: green;
+    color: white;
+}
+
+/* Grid slider */
+#size-div p{
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+#grid-slider{
+    margin-left: 8px;
+}
+/* ======================================================= */
+/* Footer */
+footer{
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    margin: 10px 0px;
+}

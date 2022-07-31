@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <title>Etch-a-Sketch</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Etch-a-Sketch</h1>
+        </header>
+        <main>
+            <div id="grid">
+            </div>
+            <div class="settings">
+                <input id="color-picker" type="color">
+                <div class="setting-buttons">
+                    <button id="color-button" class="active">Color</button>
+                    <button id="rainbow-button">Rainbow</button>
+                    <button id="eraser-button">Eraser</button>
+                    <button id="darken-button">Darken</button>
+                    <button id="lighten-button">Lighten</button>
+                    <button id="fill-button">Fill</button>
+                    <button id="grid-button">Grid</button>
+                    <button id="clear-button">Clear</button>
+                </div>
+                <div id="size-div">
+                    <p id="grid-size">Size: 16 x 16</p>
+                    <input id="grid-slider" type="range" value="16" min="1" max="64">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright © AnthonyLombardo321 2022</p>
+        </footer>
+    </body>
+</html>
